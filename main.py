@@ -5,7 +5,6 @@ from parse import auto_sales, shoes_sales, computer_sales, tour_sales, sport_sal
     games_sales, games_promo, shoes_promo, clothes_promo, auto_promo, tour_promo, sport_promo, food_promo, \
     computer_promo, cool_sales
 
-token = "1280337451:AAG53rU973c8KGSH-Qdg5Z1a3Vhk6t2xfKo"
 bot = telebot.TeleBot(token)
 keyboard = telebot.types.ReplyKeyboardMarkup()
 key = telebot.types.ReplyKeyboardMarkup()
